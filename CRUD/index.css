@@ -1,0 +1,53 @@
+table{
+    width: 100%;
+    border-collapse: collapse;/*SE QUITA EL ESPACIO QUE DEJA ENTRE SEPARACIONES*/
+}
+
+th, td{
+    border: dotted 1px;
+    padding: 5px;
+}
+
+th{
+    color: white;/*ES EL COLRO DE LAS LETRAS*/
+    background-color: blue; /*ES EL FONDO*/
+}
+
+tr:nth-child(even){
+background-color: #aaa;
+}
+
+
+tr:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+
+.tabla{
+    width: 100%;
+}
+
+div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div form{
+
+    width: 250px;
+    height: 250px;
+}
+.cont{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont .for_c{
+
+    width: 250px;
+    height: 250px;
+}
